@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/button"
+    android:backgroundTint="#ffffff"
+    android:orientation="vertical"
+    android:padding="@dimen/text_margin"
+    android:layout_margin="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginTop="@dimen/text_margin"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet,
+consectetur adipiscing elit. Donec
+viverra tincidunt ante, id blandit
+enim laoreet in. Nam vehicula
+tellus sed nunc venenatis,
+volutpat cursus nisi tempus.
+Pellentesque semper ultrices arcu,
+et vulputate lorem ullamcorper
+non. Vestibulum quis erat in nisi
+mollis commodo nec vitae lectus.
+In hac habitasse platea dictumst.
+Quisque condimentum massa ac
+enim pulvinar, ac ultricies tortor
+molestie."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:background="@drawable/button"
+        android:backgroundTint="#222222"
+        android:text="Back" />
+
+</LinearLayout>
