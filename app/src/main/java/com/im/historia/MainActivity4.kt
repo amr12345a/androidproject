@@ -58,7 +58,9 @@ class MainActivity4 : AppCompatActivity() {
             val DialogView = LayoutInflater.from(this).inflate(R.layout.popup, null)
 
             val BuilderView = AlertDialog.Builder(this).setView(DialogView)
+
             val alredDialog = BuilderView.show()
+            alredDialog.window?.decorView?.setBackgroundResource(android.R.color.transparent)
             DialogView.button.setOnClickListener {
 
                 alredDialog.dismiss()
